@@ -5,7 +5,7 @@
 
 .intro {
     text-align: center;
-    padding: 90px 50px 0px 50px;
+    padding: 40px 10px 0px 10px;
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: 300;
@@ -155,19 +155,48 @@
     color: #111827;
 }
 
-@media (min-width:300px) and (max-width:768px){
-    *{
-        overflow: hidden;
-    }
+@media only screen and (max-width:320px){
     .into{
-        font-size: 25px;
-        margin-top: 1px;
-        margin-bottom: 2px; 
+        font-size: 10px;
+        /* padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px; */
+        margin-top: 0;
+        margin-bottom: 20px; 
+        width: 100%;
+        position: relative;
+        top: 2px;
+     
+      
     }
-    
+    .progress-bar{
+        width: 100%;
+    }
+    .sidebar{
+        margin-bottom: 1px;
+
+    }
+    .list-item {
+        margin-right: 5px;
+    }
+    .brand{
+        font-size: small;
+    }
     .sidebar-top,
      .sidebar-center,
     .sidebar-bottom{
-        width: 100%;
+        font-size: 14px;
+    }
+    
+    .color-box {
+        width: 15px;
+        height: 15px;
+    }
+}
+@media only screen  and (max-width:768px){
+    .into{
+        font-size: 20px;
+        margin-top: 1px;
+        margin-bottom: 2px; 
     }
 }

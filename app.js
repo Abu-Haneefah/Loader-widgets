@@ -30,7 +30,7 @@ function askUserName() {
         const name = prompt("What is your name?");
         if (name) {
             localStorage.setItem('userName', name);
-              intro.innerHTML= ("Hello, " + name + "! Welcome to this awesome project! To begin, kindly choose a widget.");
+            alert("Hello, " + name + "! Welcome to this awesome project! To begin, kindly choose a widget.");
         } else {
             alert("Name not entered. Please reload the page to try again.");
         }
